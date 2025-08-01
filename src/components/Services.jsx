@@ -90,6 +90,14 @@ const Services = () => {
       features: ['Custom Applications', 'API Development', 'System Integration', 'Mobile Solutions'],
       gradient: 'from-teal-600 to-cyan-600',
       delay: 0.7
+    },
+    {
+      icon: Zap,
+      title: 'AI-driven Gaming Analytics for Casinos & iGaming',
+      description: 'Specialized analytics solutions for casino and iGaming operators to enhance player experience and maximize revenue.',
+      features: ['Player Behavior Analysis', 'Real-time Personalization', 'Predictive Insights', 'Revenue Optimization'],
+      gradient: 'from-amber-500 to-orange-600',
+      delay: 0.8
     }
   ]
 

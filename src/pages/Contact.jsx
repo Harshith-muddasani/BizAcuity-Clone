@@ -76,22 +76,40 @@ const Contact = () => {
 
   const offices = [
     {
-      city: "San Francisco",
-      address: "123 Business Ave, Suite 100",
+      city: "USA",
+      address: "North America Headquarters",
       phone: "+1 (555) 123-4567",
       country: "United States"
     },
     {
-      city: "New York",
-      address: "456 Wall Street, Floor 20",
-      phone: "+1 (555) 987-6543",
-      country: "United States"
-    },
-    {
-      city: "London",
-      address: "789 Oxford Street, Suite 50",
+      city: "UK",
+      address: "European Headquarters",
       phone: "+44 20 1234 5678",
       country: "United Kingdom"
+    },
+    {
+      city: "Bengaluru",
+      address: "India Development Center",
+      phone: "+91 80 1234 5678",
+      country: "India"
+    },
+    {
+      city: "Hyderabad",
+      address: "India Operations Center",
+      phone: "+91 40 1234 5678",
+      country: "India"
+    },
+    {
+      city: "Australia",
+      address: "Asia-Pacific Office",
+      phone: "+61 2 1234 5678",
+      country: "Australia"
+    },
+    {
+      city: "Portugal",
+      address: "European Development Hub",
+      phone: "+351 21 123 4567",
+      country: "Portugal"
     }
   ]
 
@@ -489,7 +507,7 @@ const Contact = () => {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {offices.map((office, index) => (
               <motion.div
                 key={office.city}

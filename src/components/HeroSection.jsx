@@ -152,9 +152,9 @@ const HeroSection = ({
             className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center"
           >
             {[
-              { number: '1000+', label: 'Data Projects' },
-              { number: '99%', label: 'Client Satisfaction' },
-              { number: '24/7', label: 'Analytics Support' }
+              { number: '1000+', label: 'Data Pipelines Built' },
+              { number: '75+', label: 'AI Analytical Models' },
+              { number: '50+', label: 'End-to-End BI Projects' }
             ].map((stat, index) => (
               <motion.div
                 key={index}
