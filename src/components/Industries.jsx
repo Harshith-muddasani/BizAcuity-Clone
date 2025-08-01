@@ -9,7 +9,10 @@ import {
   Target,
   TrendingUp,
   BarChart3,
-  Zap
+  Zap,
+  Truck,
+  Ticket,
+  ShoppingCart
 } from 'lucide-react'
 
 const Industries = () => {
@@ -107,6 +110,36 @@ const Industries = () => {
       gradient: 'from-red-600 to-pink-600',
       accentColor: 'text-red-600',
       bgPattern: 'bg-red-50'
+    },
+    {
+      icon: Truck,
+      title: 'Logistics',
+      subtitle: 'Data-driven Operations',
+      description: 'Optimize logistics operations and supply chain management with comprehensive data analytics and predictive insights.',
+      features: ['Supply Chain Analytics', 'Route Optimization', 'Inventory Management', 'Performance Tracking'],
+      gradient: 'from-amber-600 to-orange-600',
+      accentColor: 'text-amber-600',
+      bgPattern: 'bg-amber-50'
+    },
+    {
+      icon: Ticket,
+      title: 'Lottery',
+      subtitle: 'Marketing & Operations',
+      description: 'Enhance lottery operations and marketing effectiveness through data-driven insights and player behavior analysis.',
+      features: ['Player Analytics', 'Marketing Optimization', 'Sales Forecasting', 'Operational Insights'],
+      gradient: 'from-emerald-600 to-teal-600',
+      accentColor: 'text-emerald-600',
+      bgPattern: 'bg-emerald-50'
+    },
+    {
+      icon: ShoppingCart,
+      title: 'E-Commerce',
+      subtitle: 'Data-driven Marketing',
+      description: 'Boost e-commerce performance with advanced analytics for customer behavior, inventory, and marketing optimization.',
+      features: ['Customer Insights', 'Conversion Optimization', 'Inventory Analytics', 'Marketing ROI'],
+      gradient: 'from-violet-600 to-purple-600',
+      accentColor: 'text-violet-600',
+      bgPattern: 'bg-violet-50'
     }
   ]
 
