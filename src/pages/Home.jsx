@@ -1,11 +1,8 @@
 import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 import HeroSection from '../components/HeroSection'
-import AtAGlance from '../components/AtAGlance'
-import Services from '../components/Services'
-import Platform from '../components/Platform'
-import Industries from '../components/Industries'
-import Resources from '../components/Resources'
+import Customers from '../components/Customers'
+import Partners from '../components/Partners'
 
 const Home = () => {
   const containerVariants = {
@@ -30,20 +27,17 @@ const Home = () => {
   return (
     <div className="overflow-hidden">
       <HeroSection
-        title="Data Big or Small, Insights Invaluable"
+        title="Seeing the big picture in small details"
         subtitle="🚀 Welcome to BizAcuity"
-        description="Transform your business with cutting-edge analytics, AI-driven insights, and comprehensive data solutions that drive measurable growth across all industries."
+        description="Transform your business with cutting-edge analytics, AI-driven insights, and comprehensive data solutions. We've built 1000+ data pipelines, delivered 75+ AI analytical models, and completed 50+ end-to-end BI projects with 85% revenue from long-term clients."
         primaryCTA="Get Started"
         secondaryCTA="Watch Demo"
         showVideo={true}
         gradient={true}
       />
 
-      <AtAGlance />
-      <Services />
-      <Platform />
-      <Industries />
-      <Resources />
+      <Customers />
+      <Partners />
 
       <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
